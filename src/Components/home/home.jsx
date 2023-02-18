@@ -9,6 +9,10 @@ class Home extends Component {
     this.setState({ Age: this.state.Age - 1 });
   };
 
+  ChangeName = () => {
+    let input = window.prompt("Your Name:");
+    this.setState({ myName: (this.state.myName = input) });
+  };
   render() {
     return (
       <>
@@ -18,6 +22,9 @@ class Home extends Component {
           </h2>
           <div className="btns">
             <button onClick={this.UpHandler}>A</button>
+            <button onClick={this.ChangeName} className="btn btn-danger">
+              Click
+            </button>
             <button onClick={this.DownHandler}>V</button>
           </div>
           <p>
