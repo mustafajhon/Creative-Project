@@ -10,3 +10,9 @@ body {
   background-color: black;
   color: white;
 }
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
