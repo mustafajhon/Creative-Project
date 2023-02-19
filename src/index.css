@@ -16,3 +16,23 @@ body {
   justify-content: space-between;
   padding: 12px;
 }
+
+.half {
+  display: flex;
+  justify-content: space-around;
+}
+.box1 {
+  border: 1px solid gray;
+  padding: 40px;
+  box-shadow: 3px 13px 19px white;
+  border-radius: 19px;
+  margin: 33px auto;
+}
+
+.box1:hover {
+  border: 1px solid gray;
+  padding: 40px;
+  box-shadow: 3px 13px 19px rgb(100, 77, 77);
+  background-color: rgb(158, 151, 151);
+  color: black;
+}

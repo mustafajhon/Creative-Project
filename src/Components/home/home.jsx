@@ -18,21 +18,30 @@ class Home extends Component {
       <>
         <div className="container">
           <h2 className="text text-center">
-            Hello {this.state.myName} your are {this.state.Age} years Old.
+            Hello {this.state.myName} you are {this.state.Age} years Old.
           </h2>
           <div className="btns">
-            <button onClick={this.UpHandler}>A</button>
+            <button className="btn btn-primary" onClick={this.UpHandler}>
+              Increase
+            </button>
             <button onClick={this.ChangeName} className="btn btn-danger">
               Click
             </button>
-            <button onClick={this.DownHandler}>V</button>
+            <button className="btn btn-primary" onClick={this.DownHandler}>
+              Decrease
+            </button>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            nisi ipsa temporibus commodi veniam dignissimos laborum consequuntur
-            molestiae natus quas id, iste, delectus ducimus tempora illo
-            corporis similique! Officia, necessitatibus!
-          </p>
+        </div>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="half  col-md-6">
+              <div className="box1">Box1</div>
+              <div className="box1">Box2</div>
+              <div className="box1">Box3</div>
+            </div>
+
+            <div className="col-md-6"></div>
+          </div>
         </div>
       </>
     );
