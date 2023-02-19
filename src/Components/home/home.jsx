@@ -43,6 +43,15 @@ class Home extends Component {
             <div className="col-md-6"></div>
           </div>
         </div>
+        <hr />
+        <div className="div">
+          <div className="divin">
+            <h2>hello</h2>
+          </div>
+          <div className="divin">
+            <h2>hello</h2>
+          </div>
+        </div>
       </>
     );
   }
