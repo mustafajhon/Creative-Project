@@ -56,3 +56,12 @@ body {
   justify-content: center;
   background-color: blueviolet;
 }
+
+.col-md-5 {
+  background-color: gray;
+  text-align: center;
+  border: 1px solid seashell;
+  border-radius: 14px;
+  padding: 20px;
+  margin: 10px auto;
+}
